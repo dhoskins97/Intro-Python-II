@@ -6,6 +6,8 @@ class Room:
         self.name = name
         self.desc = desc
 
+        self.inv = []
+
         self.n_to = None
         self.s_to = None
         self.e_to = None
